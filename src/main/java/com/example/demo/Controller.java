@@ -1,3 +1,5 @@
+package com.example.demo;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/tasks")
-public class TaskController {
+public class Controller {
 
     private List<Task> tasks = new ArrayList<>();
 

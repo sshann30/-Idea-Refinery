@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Task {
+public class TaskModel {
     private String title;
     private String description;
     private boolean completed;
